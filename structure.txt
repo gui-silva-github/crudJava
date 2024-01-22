@@ -1,0 +1,9 @@
+1 Project: javaCRUD;
+
+2 Folders: src (with module-info.java and packages with the classes) and lib (with the archive .jar JDBC);
+
+2 Libraries: JRE System Library (the default in projects) and Referenced Libraries (with the .jar JDBC containing the packages).
+
+--- Observation: In module-info.java, needs the "requires java.sql;".
+
+--- IMPORTANT: These 4 packages are: aplicacao (Main.java), dao (Crud.java), factory (ConnectionFactory.java) and model (Usuario.java).
