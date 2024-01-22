@@ -1,0 +1,24 @@
+1 - First of all, we have to create a database with a name of our choice. In this case, it is "cadastro_crud".
+
+2 - We create a table, like "usuarios".
+
+3 - We insert the columns that this table will contain. In this project:
+    => id int AUTO_INCREMENT PRIMARY KEY
+    => nome varchar(200)
+    => idade int
+    => email varchar(200)
+    => senha varchar(200)
+    => dt_cadastro date
+
+4 - We choose an IDE that will be used for this CRUD. NetBeans, Eclipse, IntelliJ IDEA.
+
+5 - It's very important to have the .jar of the JDBC. In this case, it will be catch in the site of the mysql:
+https://dev.mysql.com/downloads/connector/j/
+
+
+6 - Let's coding ":)"!
+
+--- Observation: This repository will contain only the codes, not the libraries for example.
+
+On the top of the code, will be the "imports".
+
